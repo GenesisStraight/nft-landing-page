@@ -1,4 +1,4 @@
-const fetch = require('node-fetch')
+const fetch = require('cross-fetch')
 
 const CONTRACT = process.env.CONTRACT_ADDRESS;
 const AUTH = process.env.NFTPORT_AUTH;
